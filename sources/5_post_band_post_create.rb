@@ -2,8 +2,12 @@ require 'pp'
 require_relative '0_env'
 
 # https://developers.band.us/develop/guide/api/write_post
+
 # 글 쓰기
 # 특정 밴드에 글을 작성합니다.
+
+# ポスト作成
+# 特定のBANDにポストを作成。
 
 params = {
     'band_key' => 'INPUT YOUR BAND KEY',

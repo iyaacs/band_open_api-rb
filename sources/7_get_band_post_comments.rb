@@ -2,8 +2,12 @@ require 'pp'
 require_relative '0_env'
 
 # https://developers.band.us/develop/guide/api/get_comments
+
 # 댓글 목록 조회
 # 특정 글에 달린 댓글 목록을 조회합니다.
+
+# コメントリスト照会
+# 特定のポストに付いたコメントのリストを照会。
 
 params = {
     'band_key' => 'INPUT YOUR BAND KEY',

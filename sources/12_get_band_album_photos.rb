@@ -2,8 +2,12 @@ require 'pp'
 require_relative '0_env'
 
 # https://developers.band.us/develop/guide/api/get_photos
+
 # 사진 목록 조회 API
 # 특정 앨범에 포함된 사진목록을 조회합니다.
+
+# 写真リスト照会
+# 特定のアルバムに含まれている写真のリストを照会。
 
 params = {
     'band_key' => 'INPUT YOUR BAND KEY',

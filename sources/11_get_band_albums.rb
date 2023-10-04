@@ -2,8 +2,13 @@ require 'pp'
 require_relative '0_env'
 
 # https://developers.band.us/develop/guide/api/get_albums
+
 # 앨범 목록 조회
 # 특정 밴드의 앨범목록을 조회합니다. 목록은 등록 순서순으로 정렬되어 제공됩니다.
+
+# アルバムリスト照会
+# 特定のBANDのアルバムのリストを照会。 
+# リストは登録の順序で並べられています。
 
 params = {
     'band_key' => 'INPUT YOUR BAND KEY'

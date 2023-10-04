@@ -2,8 +2,12 @@ require 'pp'
 require_relative '0_env'
 
 # https://developers.band.us/develop/guide/api/get_post
+
 # 글 상세 조회
 # 특정 글의 상세정보를 조회합니다.
+
+# ポストの詳細照会
+# 特定のポストの詳細を照会。
 
 params = {
     'band_key' => 'INPUT YOUR BAND KEY',

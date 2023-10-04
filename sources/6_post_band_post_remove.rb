@@ -2,8 +2,12 @@ require 'pp'
 require_relative '0_env'
 
 # https://developers.band.us/develop/guide/api/remove_post
+
 # 글 삭제
 # 특정 글을 삭제하는 API 입니다.
+
+# ポスト削除
+# 特定のポストを削除。
 
 params = {
     'band_key' => 'INPUT YOUR BAND KEY',
