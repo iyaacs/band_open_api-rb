@@ -21,9 +21,11 @@ def validate?(hash, properties)
     ret
 end
 
+$access_token = nil
 def get_access_token
+    return $access_token if $access_token
     access_token_path = './access_token.txt'
-    access_token = File.read(access_token_path).strip
+    $access_token = File.read(access_token_path).strip
 end
 
 def get_request(url, query_params = {})
